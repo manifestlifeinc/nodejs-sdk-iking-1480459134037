@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: nodejs-sdk-iking
+  host: nodejs-sdk-iking
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-iking
+  - Speech to Text-gf
+  - IBM Watson Machine Learning-hw
